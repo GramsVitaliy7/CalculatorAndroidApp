@@ -14,7 +14,8 @@
         android:layout_alignLeft="@+id/btn0"
         android:layout_alignStart="@+id/btn0"
         android:background="?attr/colorPrimary"
-        android:text="x^y" />
+        android:onClick="onClickOperator"
+        android:text="^" />
 
     <Button
         android:id="@+id/buttonSubstraction"
@@ -263,6 +264,9 @@
         android:layout_height="90dp"
         android:background="@android:color/background_light"
         android:text="TextView"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
         android:visibility="visible" />
 
 </RelativeLayout>
